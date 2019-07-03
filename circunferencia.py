@@ -5,6 +5,7 @@
 #Fecha: 1 de julio de 2019
 
 import math as mat
+import os
 
 #Funcion para calcular area
 def calcularArea(r):
@@ -19,7 +20,7 @@ def calculaDiametro(d):
 
 def main():
     ciclo = True
-    
+
     while ciclo==True:
         print("--Script para calcular Área de circunferncia")
         radio = float (input("introduce el valor del radio: "))
@@ -33,6 +34,7 @@ def main():
             ciclo= True
         else :
             ciclo=False
+
 
 if __name__=="__main__":
          main()
